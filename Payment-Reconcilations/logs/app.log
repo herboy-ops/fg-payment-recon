@@ -1,0 +1,236 @@
+2025-04-16 23:26:24,576 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-16 23:26:24,577 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-16 23:26:24,597 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-16 23:26:30,436 - WARNING -  * Debugger is active!
+2025-04-16 23:26:30,447 - INFO -  * Debugger PIN: 498-786-598
+2025-04-17 00:05:53,425 - INFO - 127.0.0.1 - - [17/Apr/2025 00:05:53] "GET / HTTP/1.1" 200 -
+2025-04-17 00:05:53,665 - INFO - 127.0.0.1 - - [17/Apr/2025 00:05:53] "[36mGET /static/images/fg.png HTTP/1.1[0m" 304 -
+2025-04-17 00:06:19,192 - INFO - Files uploaded: collection from CIS.xlsx, NEFT.xls
+2025-04-17 00:06:26,634 - ERROR - Error during processing: Grouper for 'Mode' not 1-dimensional
+2025-04-17 00:06:26,704 - INFO - 127.0.0.1 - - [17/Apr/2025 00:06:26] "POST /upload HTTP/1.1" 200 -
+2025-04-17 00:06:26,735 - INFO - 127.0.0.1 - - [17/Apr/2025 00:06:26] "GET / HTTP/1.1" 200 -
+2025-04-17 00:06:26,780 - INFO - 127.0.0.1 - - [17/Apr/2025 00:06:26] "[36mGET /static/images/fg.png HTTP/1.1[0m" 304 -
+2025-04-17 07:05:58,398 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-17 07:05:58,399 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-17 07:05:58,459 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-17 07:06:11,243 - WARNING -  * Debugger is active!
+2025-04-17 07:06:11,260 - INFO -  * Debugger PIN: 498-786-598
+2025-04-17 07:06:11,443 - INFO - 127.0.0.1 - - [17/Apr/2025 07:06:11] "GET / HTTP/1.1" 200 -
+2025-04-17 07:06:12,152 - INFO - 127.0.0.1 - - [17/Apr/2025 07:06:12] "[36mGET /static/images/fg.png HTTP/1.1[0m" 304 -
+2025-04-17 07:06:12,321 - INFO - 127.0.0.1 - - [17/Apr/2025 07:06:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-17 07:06:42,243 - INFO - Files uploaded: collection from CIS.xlsx, NEFT.xls
+2025-04-17 07:07:00,496 - ERROR - Error during processing: Grouper for 'Mode' not 1-dimensional
+2025-04-17 07:07:00,530 - INFO - 127.0.0.1 - - [17/Apr/2025 07:07:00] "POST /upload HTTP/1.1" 200 -
+2025-04-17 07:07:00,562 - INFO - 127.0.0.1 - - [17/Apr/2025 07:07:00] "GET / HTTP/1.1" 200 -
+2025-04-17 07:07:00,625 - INFO - 127.0.0.1 - - [17/Apr/2025 07:07:00] "[36mGET /static/images/fg.png HTTP/1.1[0m" 304 -
+2025-04-17 07:08:06,756 - INFO - 127.0.0.1 - - [17/Apr/2025 07:08:06] "GET / HTTP/1.1" 200 -
+2025-04-17 07:08:06,857 - INFO - 127.0.0.1 - - [17/Apr/2025 07:08:06] "[36mGET /static/images/fg.png HTTP/1.1[0m" 304 -
+2025-04-17 07:09:52,559 - INFO - Files uploaded: CISOCT24.xlsx, MISOCT24.xlsx
+2025-04-17 07:09:56,735 - ERROR - Error during processing: Grouper for 'Mode' not 1-dimensional
+2025-04-17 07:09:56,759 - INFO - 127.0.0.1 - - [17/Apr/2025 07:09:56] "POST /upload HTTP/1.1" 200 -
+2025-04-17 07:09:56,785 - INFO - 127.0.0.1 - - [17/Apr/2025 07:09:56] "GET / HTTP/1.1" 200 -
+2025-04-17 07:09:56,817 - INFO - 127.0.0.1 - - [17/Apr/2025 07:09:56] "[36mGET /static/images/fg.png HTTP/1.1[0m" 304 -
+2025-04-17 07:10:28,529 - INFO - Files uploaded: collection from CIS.xlsx, NEFT.xls
+2025-04-17 07:10:36,563 - ERROR - Error during processing: Grouper for 'Mode' not 1-dimensional
+2025-04-17 07:10:36,609 - INFO - 127.0.0.1 - - [17/Apr/2025 07:10:36] "POST /upload HTTP/1.1" 200 -
+2025-04-17 07:10:36,628 - INFO - 127.0.0.1 - - [17/Apr/2025 07:10:36] "GET / HTTP/1.1" 200 -
+2025-04-17 07:10:36,674 - INFO - 127.0.0.1 - - [17/Apr/2025 07:10:36] "[36mGET /static/images/fg.png HTTP/1.1[0m" 304 -
+2025-04-17 07:10:54,131 - INFO - 127.0.0.1 - - [17/Apr/2025 07:10:54] "GET / HTTP/1.1" 200 -
+2025-04-17 07:10:54,163 - INFO - 127.0.0.1 - - [17/Apr/2025 07:10:54] "[36mGET /static/images/fg.png HTTP/1.1[0m" 304 -
+2025-04-17 07:10:55,375 - INFO - 127.0.0.1 - - [17/Apr/2025 07:10:55] "GET / HTTP/1.1" 200 -
+2025-04-17 07:10:55,426 - INFO - 127.0.0.1 - - [17/Apr/2025 07:10:55] "[36mGET /static/images/fg.png HTTP/1.1[0m" 304 -
+2025-04-17 07:10:58,138 - INFO - 127.0.0.1 - - [17/Apr/2025 07:10:58] "GET / HTTP/1.1" 200 -
+2025-04-17 07:10:58,175 - INFO - 127.0.0.1 - - [17/Apr/2025 07:10:58] "[36mGET /static/images/fg.png HTTP/1.1[0m" 304 -
+2025-04-17 07:12:45,941 - INFO - Files uploaded: collection from CIS.xlsx, NEFT.xls
+2025-04-17 07:12:54,545 - ERROR - Column mismatch: receipt no or receipt no not found
+2025-04-17 07:12:54,640 - INFO - 127.0.0.1 - - [17/Apr/2025 07:12:54] "POST /upload HTTP/1.1" 200 -
+2025-04-17 07:12:54,683 - INFO - 127.0.0.1 - - [17/Apr/2025 07:12:54] "GET / HTTP/1.1" 200 -
+2025-04-17 07:12:54,720 - INFO - 127.0.0.1 - - [17/Apr/2025 07:12:54] "[36mGET /static/images/fg.png HTTP/1.1[0m" 304 -
+2025-04-17 07:14:33,755 - INFO -  * Detected change in 'c:\\Users\\rahul.k\\Desktop\\javafor practice\\Practice1.java\\JAVA program\\Payment-Reconcilations\\Payment-Reconcilations\\app.py', reloading
+2025-04-17 07:14:33,756 - INFO -  * Detected change in 'c:\\Users\\rahul.k\\Desktop\\javafor practice\\Practice1.java\\JAVA program\\Payment-Reconcilations\\Payment-Reconcilations\\app.py', reloading
+2025-04-17 07:14:33,758 - INFO -  * Detected change in 'c:\\Users\\rahul.k\\Desktop\\javafor practice\\Practice1.java\\JAVA program\\Payment-Reconcilations\\Payment-Reconcilations\\app.py', reloading
+2025-04-17 07:14:33,759 - INFO -  * Detected change in 'c:\\Users\\rahul.k\\Desktop\\javafor practice\\Practice1.java\\JAVA program\\Payment-Reconcilations\\Payment-Reconcilations\\app.py', reloading
+2025-04-17 07:14:34,956 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-17 07:14:49,312 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-17 07:14:49,312 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-17 07:14:49,337 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-17 07:14:55,521 - WARNING -  * Debugger is active!
+2025-04-17 07:14:55,537 - INFO -  * Debugger PIN: 498-786-598
+2025-04-17 07:14:55,625 - INFO - 127.0.0.1 - - [17/Apr/2025 07:14:55] "GET / HTTP/1.1" 200 -
+2025-04-17 07:14:55,849 - INFO - 127.0.0.1 - - [17/Apr/2025 07:14:55] "[36mGET /static/images/fg.png HTTP/1.1[0m" 304 -
+2025-04-17 07:15:12,880 - INFO - Files uploaded: collection_from_CIS.xlsx, NEFT.xls
+2025-04-17 07:15:12,930 - INFO -  * Detected change in 'C:\\Users\\rahul.k\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\app.py', reloading
+2025-04-17 07:15:12,938 - INFO - 127.0.0.1 - - [17/Apr/2025 07:15:12] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-04-17 07:15:14,240 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-17 07:15:21,533 - WARNING -  * Debugger is active!
+2025-04-17 07:15:21,542 - INFO -  * Debugger PIN: 498-786-598
+2025-04-17 07:15:22,272 - INFO -  * Detected change in 'c:\\Users\\rahul.k\\Desktop\\javafor practice\\Practice1.java\\JAVA program\\Payment-Reconcilations\\Payment-Reconcilations\\app.py', reloading
+2025-04-17 07:15:22,273 - INFO -  * Detected change in 'c:\\Users\\rahul.k\\Desktop\\javafor practice\\Practice1.java\\JAVA program\\Payment-Reconcilations\\Payment-Reconcilations\\app.py', reloading
+2025-04-17 07:15:22,274 - INFO -  * Detected change in 'c:\\Users\\rahul.k\\Desktop\\javafor practice\\Practice1.java\\JAVA program\\Payment-Reconcilations\\Payment-Reconcilations\\app.py', reloading
+2025-04-17 07:15:22,275 - INFO -  * Detected change in 'c:\\Users\\rahul.k\\Desktop\\javafor practice\\Practice1.java\\JAVA program\\Payment-Reconcilations\\Payment-Reconcilations\\app.py', reloading
+2025-04-17 07:15:23,175 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-17 07:15:29,362 - WARNING -  * Debugger is active!
+2025-04-17 07:15:29,372 - INFO -  * Debugger PIN: 498-786-598
+2025-04-17 07:15:30,342 - INFO -  * Detected change in 'c:\\Users\\rahul.k\\Desktop\\javafor practice\\Practice1.java\\JAVA program\\Payment-Reconcilations\\Payment-Reconcilations\\app.py', reloading
+2025-04-17 07:15:30,346 - INFO -  * Detected change in 'c:\\Users\\rahul.k\\Desktop\\javafor practice\\Practice1.java\\JAVA program\\Payment-Reconcilations\\Payment-Reconcilations\\app.py', reloading
+2025-04-17 07:15:30,348 - INFO -  * Detected change in 'c:\\Users\\rahul.k\\Desktop\\javafor practice\\Practice1.java\\JAVA program\\Payment-Reconcilations\\Payment-Reconcilations\\app.py', reloading
+2025-04-17 07:15:30,350 - INFO -  * Detected change in 'c:\\Users\\rahul.k\\Desktop\\javafor practice\\Practice1.java\\JAVA program\\Payment-Reconcilations\\Payment-Reconcilations\\app.py', reloading
+2025-04-17 07:15:30,860 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-17 07:15:43,182 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-17 07:15:43,183 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-17 07:15:43,207 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-17 07:15:49,174 - WARNING -  * Debugger is active!
+2025-04-17 07:15:49,190 - INFO -  * Debugger PIN: 498-786-598
+2025-04-17 07:15:49,341 - INFO - 127.0.0.1 - - [17/Apr/2025 07:15:49] "GET / HTTP/1.1" 200 -
+2025-04-17 07:15:49,601 - INFO - 127.0.0.1 - - [17/Apr/2025 07:15:49] "[36mGET /static/images/fg.png HTTP/1.1[0m" 304 -
+2025-04-17 07:16:05,529 - INFO - Files uploaded: collection from CIS.xlsx, NEFT.xls
+2025-04-17 07:16:14,730 - ERROR - Error during processing: Grouper for 'Mode' not 1-dimensional
+2025-04-17 07:16:14,778 - INFO - 127.0.0.1 - - [17/Apr/2025 07:16:14] "POST /upload HTTP/1.1" 200 -
+2025-04-17 07:16:14,802 - INFO - 127.0.0.1 - - [17/Apr/2025 07:16:14] "GET / HTTP/1.1" 200 -
+2025-04-17 07:16:14,843 - INFO - 127.0.0.1 - - [17/Apr/2025 07:16:14] "[36mGET /static/images/fg.png HTTP/1.1[0m" 304 -
+2025-04-17 07:16:30,121 - INFO - 127.0.0.1 - - [17/Apr/2025 07:16:30] "GET / HTTP/1.1" 200 -
+2025-04-17 07:16:30,402 - INFO - 127.0.0.1 - - [17/Apr/2025 07:16:30] "[36mGET /static/images/fg.png HTTP/1.1[0m" 304 -
+2025-04-17 07:16:47,213 - INFO - Files uploaded: collection from CIS.xlsx, NEFT.xls
+2025-04-17 07:16:57,008 - ERROR - Error during processing: Grouper for 'Mode' not 1-dimensional
+2025-04-17 07:16:57,062 - INFO - 127.0.0.1 - - [17/Apr/2025 07:16:57] "POST /upload HTTP/1.1" 200 -
+2025-04-17 07:16:57,095 - INFO - 127.0.0.1 - - [17/Apr/2025 07:16:57] "GET / HTTP/1.1" 200 -
+2025-04-17 07:16:57,136 - INFO - 127.0.0.1 - - [17/Apr/2025 07:16:57] "[36mGET /static/images/fg.png HTTP/1.1[0m" 304 -
+2025-04-17 07:17:45,551 - INFO -  * Detected change in 'c:\\Users\\rahul.k\\Desktop\\javafor practice\\Practice1.java\\JAVA program\\Payment-Reconcilations\\Payment-Reconcilations\\app.py', reloading
+2025-04-17 07:17:45,553 - INFO -  * Detected change in 'c:\\Users\\rahul.k\\Desktop\\javafor practice\\Practice1.java\\JAVA program\\Payment-Reconcilations\\Payment-Reconcilations\\app.py', reloading
+2025-04-17 07:17:45,554 - INFO -  * Detected change in 'c:\\Users\\rahul.k\\Desktop\\javafor practice\\Practice1.java\\JAVA program\\Payment-Reconcilations\\Payment-Reconcilations\\app.py', reloading
+2025-04-17 07:17:45,555 - INFO -  * Detected change in 'c:\\Users\\rahul.k\\Desktop\\javafor practice\\Practice1.java\\JAVA program\\Payment-Reconcilations\\Payment-Reconcilations\\app.py', reloading
+2025-04-17 07:17:46,032 - INFO -  * Detected change in 'c:\\Users\\rahul.k\\Desktop\\javafor practice\\Practice1.java\\JAVA program\\Payment-Reconcilations\\Payment-Reconcilations\\app.py', reloading
+2025-04-17 07:17:46,640 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-17 07:17:52,499 - WARNING -  * Debugger is active!
+2025-04-17 07:17:52,517 - INFO -  * Debugger PIN: 498-786-598
+2025-04-17 08:04:15,788 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-17 08:04:15,789 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-17 08:04:15,804 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-17 08:04:20,577 - WARNING -  * Debugger is active!
+2025-04-17 08:04:20,588 - INFO -  * Debugger PIN: 498-786-598
+2025-04-17 08:04:21,359 - INFO - 127.0.0.1 - - [17/Apr/2025 08:04:21] "GET / HTTP/1.1" 200 -
+2025-04-17 08:04:21,581 - INFO - 127.0.0.1 - - [17/Apr/2025 08:04:21] "[36mGET /static/images/fg.png HTTP/1.1[0m" 304 -
+2025-04-17 08:04:39,956 - INFO - Files uploaded: collection from CIS.xlsx, NEFT.xls
+2025-04-17 08:04:44,774 - ERROR - Error during processing: Grouper for 'Mode' not 1-dimensional
+2025-04-17 08:04:44,803 - INFO - 127.0.0.1 - - [17/Apr/2025 08:04:44] "POST /upload HTTP/1.1" 200 -
+2025-04-17 08:04:44,817 - INFO - 127.0.0.1 - - [17/Apr/2025 08:04:44] "GET / HTTP/1.1" 200 -
+2025-04-17 08:04:44,870 - INFO - 127.0.0.1 - - [17/Apr/2025 08:04:44] "[36mGET /static/images/fg.png HTTP/1.1[0m" 304 -
+2025-04-17 08:05:26,646 - INFO -  * Detected change in 'c:\\Users\\rahul.k\\Desktop\\javafor practice\\Practice1.java\\JAVA program\\Payment-Reconcilations\\app.py', reloading
+2025-04-17 08:05:26,650 - INFO -  * Detected change in 'c:\\Users\\rahul.k\\Desktop\\javafor practice\\Practice1.java\\JAVA program\\Payment-Reconcilations\\app.py', reloading
+2025-04-17 08:05:26,653 - INFO -  * Detected change in 'c:\\Users\\rahul.k\\Desktop\\javafor practice\\Practice1.java\\JAVA program\\Payment-Reconcilations\\app.py', reloading
+2025-04-17 08:05:26,655 - INFO -  * Detected change in 'c:\\Users\\rahul.k\\Desktop\\javafor practice\\Practice1.java\\JAVA program\\Payment-Reconcilations\\app.py', reloading
+2025-04-17 08:05:27,130 - INFO -  * Detected change in 'c:\\Users\\rahul.k\\Desktop\\javafor practice\\Practice1.java\\JAVA program\\Payment-Reconcilations\\app.py', reloading
+2025-04-17 08:05:27,133 - INFO -  * Detected change in 'c:\\Users\\rahul.k\\Desktop\\javafor practice\\Practice1.java\\JAVA program\\Payment-Reconcilations\\app.py', reloading
+2025-04-17 08:05:27,134 - INFO -  * Detected change in 'c:\\Users\\rahul.k\\Desktop\\javafor practice\\Practice1.java\\JAVA program\\Payment-Reconcilations\\app.py', reloading
+2025-04-17 08:05:27,135 - INFO -  * Detected change in 'c:\\Users\\rahul.k\\Desktop\\javafor practice\\Practice1.java\\JAVA program\\Payment-Reconcilations\\app.py', reloading
+2025-04-17 08:05:27,147 - INFO -  * Detected change in 'c:\\Users\\rahul.k\\Desktop\\javafor practice\\Practice1.java\\JAVA program\\Payment-Reconcilations\\app.py', reloading
+2025-04-17 08:05:27,148 - INFO -  * Detected change in 'c:\\Users\\rahul.k\\Desktop\\javafor practice\\Practice1.java\\JAVA program\\Payment-Reconcilations\\app.py', reloading
+2025-04-17 08:05:27,149 - INFO -  * Detected change in 'c:\\Users\\rahul.k\\Desktop\\javafor practice\\Practice1.java\\JAVA program\\Payment-Reconcilations\\app.py', reloading
+2025-04-17 08:05:27,153 - INFO -  * Detected change in 'c:\\Users\\rahul.k\\Desktop\\javafor practice\\Practice1.java\\JAVA program\\Payment-Reconcilations\\app.py', reloading
+2025-04-17 08:05:27,604 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-17 08:05:37,823 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-17 08:05:37,824 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-17 08:05:37,839 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-17 08:05:41,933 - WARNING -  * Debugger is active!
+2025-04-17 08:05:41,943 - INFO -  * Debugger PIN: 498-786-598
+2025-04-17 08:05:48,528 - INFO - 127.0.0.1 - - [17/Apr/2025 08:05:48] "GET / HTTP/1.1" 200 -
+2025-04-17 08:05:48,759 - INFO - 127.0.0.1 - - [17/Apr/2025 08:05:48] "[36mGET /static/images/fg.png HTTP/1.1[0m" 304 -
+2025-04-17 08:05:52,108 - INFO - 127.0.0.1 - - [17/Apr/2025 08:05:52] "GET / HTTP/1.1" 200 -
+2025-04-17 08:05:52,144 - INFO - 127.0.0.1 - - [17/Apr/2025 08:05:52] "[36mGET /static/images/fg.png HTTP/1.1[0m" 304 -
+2025-04-17 08:06:07,733 - INFO - Files uploaded: collection from CIS.xlsx, NEFT.xls
+2025-04-17 08:06:12,734 - ERROR - Error during processing: Grouper for 'Mode' not 1-dimensional
+2025-04-17 08:06:12,763 - INFO - 127.0.0.1 - - [17/Apr/2025 08:06:12] "POST /upload HTTP/1.1" 200 -
+2025-04-17 08:06:12,780 - INFO - 127.0.0.1 - - [17/Apr/2025 08:06:12] "GET / HTTP/1.1" 200 -
+2025-04-17 08:06:12,826 - INFO - 127.0.0.1 - - [17/Apr/2025 08:06:12] "[36mGET /static/images/fg.png HTTP/1.1[0m" 304 -
+2025-04-17 08:10:36,631 - INFO -  * Detected change in 'c:\\Users\\rahul.k\\Desktop\\javafor practice\\Practice1.java\\JAVA program\\Payment-Reconcilations\\app.py', reloading
+2025-04-17 08:10:36,635 - INFO -  * Detected change in 'c:\\Users\\rahul.k\\Desktop\\javafor practice\\Practice1.java\\JAVA program\\Payment-Reconcilations\\app.py', reloading
+2025-04-17 08:10:36,640 - INFO -  * Detected change in 'c:\\Users\\rahul.k\\Desktop\\javafor practice\\Practice1.java\\JAVA program\\Payment-Reconcilations\\app.py', reloading
+2025-04-17 08:10:36,644 - INFO -  * Detected change in 'c:\\Users\\rahul.k\\Desktop\\javafor practice\\Practice1.java\\JAVA program\\Payment-Reconcilations\\app.py', reloading
+2025-04-17 08:10:36,884 - INFO -  * Detected change in 'c:\\Users\\rahul.k\\Desktop\\javafor practice\\Practice1.java\\JAVA program\\Payment-Reconcilations\\app.py', reloading
+2025-04-17 08:10:36,885 - INFO -  * Detected change in 'c:\\Users\\rahul.k\\Desktop\\javafor practice\\Practice1.java\\JAVA program\\Payment-Reconcilations\\app.py', reloading
+2025-04-17 08:10:36,886 - INFO -  * Detected change in 'c:\\Users\\rahul.k\\Desktop\\javafor practice\\Practice1.java\\JAVA program\\Payment-Reconcilations\\app.py', reloading
+2025-04-17 08:10:36,887 - INFO -  * Detected change in 'c:\\Users\\rahul.k\\Desktop\\javafor practice\\Practice1.java\\JAVA program\\Payment-Reconcilations\\app.py', reloading
+2025-04-17 08:10:37,044 - INFO -  * Detected change in 'c:\\Users\\rahul.k\\Desktop\\javafor practice\\Practice1.java\\JAVA program\\Payment-Reconcilations\\app.py', reloading
+2025-04-17 08:10:37,046 - INFO -  * Detected change in 'c:\\Users\\rahul.k\\Desktop\\javafor practice\\Practice1.java\\JAVA program\\Payment-Reconcilations\\app.py', reloading
+2025-04-17 08:10:37,048 - INFO -  * Detected change in 'c:\\Users\\rahul.k\\Desktop\\javafor practice\\Practice1.java\\JAVA program\\Payment-Reconcilations\\app.py', reloading
+2025-04-17 08:10:37,050 - INFO -  * Detected change in 'c:\\Users\\rahul.k\\Desktop\\javafor practice\\Practice1.java\\JAVA program\\Payment-Reconcilations\\app.py', reloading
+2025-04-17 08:10:37,562 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-17 08:10:49,415 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-17 08:10:49,415 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-17 08:10:49,431 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-17 08:10:53,575 - WARNING -  * Debugger is active!
+2025-04-17 08:10:53,581 - INFO -  * Debugger PIN: 498-786-598
+2025-04-17 08:11:10,504 - INFO - 127.0.0.1 - - [17/Apr/2025 08:11:10] "GET / HTTP/1.1" 200 -
+2025-04-17 08:11:18,222 - INFO - 127.0.0.1 - - [17/Apr/2025 08:11:18] "GET /static/images/fg.png HTTP/1.1" 200 -
+2025-04-17 08:11:54,452 - INFO - Files uploaded: collection from CIS.xlsx, NEFT.xls
+2025-04-17 08:11:59,203 - ERROR - Error during processing: Grouper for 'Mode' not 1-dimensional
+2025-04-17 08:11:59,233 - INFO - 127.0.0.1 - - [17/Apr/2025 08:11:59] "POST /upload HTTP/1.1" 200 -
+2025-04-17 08:11:59,250 - INFO - 127.0.0.1 - - [17/Apr/2025 08:11:59] "GET / HTTP/1.1" 200 -
+2025-04-17 08:11:59,298 - INFO - 127.0.0.1 - - [17/Apr/2025 08:11:59] "[36mGET /static/images/fg.png HTTP/1.1[0m" 304 -
+2025-04-17 08:12:11,066 - INFO - 127.0.0.1 - - [17/Apr/2025 08:12:11] "GET / HTTP/1.1" 200 -
+2025-04-17 08:12:11,282 - INFO - 127.0.0.1 - - [17/Apr/2025 08:12:11] "[36mGET /static/images/fg.png HTTP/1.1[0m" 304 -
+2025-04-17 08:12:38,698 - INFO - Files uploaded: collection from CIS.xlsx, NEFT.xls
+2025-04-17 08:12:43,277 - ERROR - Error during processing: Grouper for 'Mode' not 1-dimensional
+2025-04-17 08:12:43,300 - INFO - 127.0.0.1 - - [17/Apr/2025 08:12:43] "POST /upload HTTP/1.1" 200 -
+2025-04-17 08:12:43,359 - INFO - 127.0.0.1 - - [17/Apr/2025 08:12:43] "GET / HTTP/1.1" 200 -
+2025-04-17 08:12:43,402 - INFO - 127.0.0.1 - - [17/Apr/2025 08:12:43] "[36mGET /static/images/fg.png HTTP/1.1[0m" 304 -
+2025-04-17 08:12:50,449 - INFO - 127.0.0.1 - - [17/Apr/2025 08:12:50] "GET / HTTP/1.1" 200 -
+2025-04-17 08:12:50,515 - INFO - 127.0.0.1 - - [17/Apr/2025 08:12:50] "[36mGET /static/images/fg.png HTTP/1.1[0m" 304 -
+2025-04-17 08:13:06,458 - INFO - Files uploaded: collection from CIS.xlsx, NEFT.xls
+2025-04-17 08:13:12,743 - ERROR - Error during processing: Grouper for 'Mode' not 1-dimensional
+2025-04-17 08:13:12,793 - INFO - 127.0.0.1 - - [17/Apr/2025 08:13:12] "POST /upload HTTP/1.1" 200 -
+2025-04-17 08:13:12,816 - INFO - 127.0.0.1 - - [17/Apr/2025 08:13:12] "GET / HTTP/1.1" 200 -
+2025-04-17 08:13:12,862 - INFO - 127.0.0.1 - - [17/Apr/2025 08:13:12] "[36mGET /static/images/fg.png HTTP/1.1[0m" 304 -
+2025-04-17 08:14:29,664 - INFO - 127.0.0.1 - - [17/Apr/2025 08:14:29] "GET / HTTP/1.1" 200 -
+2025-04-17 08:14:29,695 - INFO - 127.0.0.1 - - [17/Apr/2025 08:14:29] "[36mGET /static/images/fg.png HTTP/1.1[0m" 304 -
+2025-04-17 08:16:02,178 - INFO - Files uploaded: collection from CIS.xlsx, NEFT.xls
+2025-04-17 08:16:10,761 - ERROR - Error during processing: Grouper for 'Mode' not 1-dimensional
+2025-04-17 08:16:10,808 - INFO - 127.0.0.1 - - [17/Apr/2025 08:16:10] "POST /upload HTTP/1.1" 200 -
+2025-04-17 08:16:10,836 - INFO - 127.0.0.1 - - [17/Apr/2025 08:16:10] "GET / HTTP/1.1" 200 -
+2025-04-17 08:16:10,871 - INFO - 127.0.0.1 - - [17/Apr/2025 08:16:10] "[36mGET /static/images/fg.png HTTP/1.1[0m" 304 -
+2025-04-17 08:20:05,248 - INFO - Files uploaded: collection from CIS.xlsx, NEFT.xls
+2025-04-17 08:20:15,885 - ERROR - Error during processing: Grouper for 'Mode' not 1-dimensional
+2025-04-17 08:20:15,933 - INFO - 127.0.0.1 - - [17/Apr/2025 08:20:15] "POST /upload HTTP/1.1" 200 -
+2025-04-17 08:20:15,957 - INFO - 127.0.0.1 - - [17/Apr/2025 08:20:15] "GET / HTTP/1.1" 200 -
+2025-04-17 08:20:16,022 - INFO - 127.0.0.1 - - [17/Apr/2025 08:20:16] "[36mGET /static/images/fg.png HTTP/1.1[0m" 304 -
+2025-04-17 08:20:46,290 - INFO -  * Detected change in 'c:\\Users\\rahul.k\\Desktop\\javafor practice\\Practice1.java\\JAVA program\\Payment-Reconcilations\\app.py', reloading
+2025-04-17 08:20:46,292 - INFO -  * Detected change in 'c:\\Users\\rahul.k\\Desktop\\javafor practice\\Practice1.java\\JAVA program\\Payment-Reconcilations\\app.py', reloading
+2025-04-17 08:20:46,888 - INFO -  * Detected change in 'c:\\Users\\rahul.k\\Desktop\\javafor practice\\Practice1.java\\JAVA program\\Payment-Reconcilations\\app.py', reloading
+2025-04-17 08:20:46,890 - INFO -  * Detected change in 'c:\\Users\\rahul.k\\Desktop\\javafor practice\\Practice1.java\\JAVA program\\Payment-Reconcilations\\app.py', reloading
+2025-04-17 08:20:46,892 - INFO -  * Detected change in 'c:\\Users\\rahul.k\\Desktop\\javafor practice\\Practice1.java\\JAVA program\\Payment-Reconcilations\\app.py', reloading
+2025-04-17 08:20:46,895 - INFO -  * Detected change in 'c:\\Users\\rahul.k\\Desktop\\javafor practice\\Practice1.java\\JAVA program\\Payment-Reconcilations\\app.py', reloading
+2025-04-17 08:20:47,710 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-17 08:21:00,674 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-17 08:21:00,675 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-17 08:21:00,703 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-17 08:21:05,694 - WARNING -  * Debugger is active!
+2025-04-17 08:21:05,705 - INFO -  * Debugger PIN: 498-786-598
+2025-04-17 08:21:06,269 - INFO - 127.0.0.1 - - [17/Apr/2025 08:21:06] "GET / HTTP/1.1" 200 -
+2025-04-17 08:21:06,552 - INFO - 127.0.0.1 - - [17/Apr/2025 08:21:06] "[36mGET /static/images/fg.png HTTP/1.1[0m" 304 -
+2025-04-17 08:21:24,616 - INFO - Files uploaded: collection from CIS.xlsx, NEFT.xls
+2025-04-17 08:21:32,725 - ERROR - Error during processing: Grouper for 'Mode' not 1-dimensional
+2025-04-17 08:21:32,771 - INFO - 127.0.0.1 - - [17/Apr/2025 08:21:32] "POST /upload HTTP/1.1" 200 -
+2025-04-17 08:21:32,803 - INFO - 127.0.0.1 - - [17/Apr/2025 08:21:32] "GET / HTTP/1.1" 200 -
+2025-04-17 08:21:32,836 - INFO - 127.0.0.1 - - [17/Apr/2025 08:21:32] "[36mGET /static/images/fg.png HTTP/1.1[0m" 304 -
+2025-04-17 08:22:09,070 - INFO - 127.0.0.1 - - [17/Apr/2025 08:22:09] "GET / HTTP/1.1" 200 -
+2025-04-17 08:22:09,224 - INFO - 127.0.0.1 - - [17/Apr/2025 08:22:09] "GET /static/images/fg.png HTTP/1.1" 200 -
+2025-04-17 08:22:32,071 - INFO - Files uploaded: collection from CIS.xlsx, NEFT.xls
+2025-04-17 08:22:40,062 - ERROR - Error during processing: Grouper for 'Mode' not 1-dimensional
+2025-04-17 08:22:40,113 - INFO - 127.0.0.1 - - [17/Apr/2025 08:22:40] "POST /upload HTTP/1.1" 200 -
+2025-04-17 08:22:40,135 - INFO - 127.0.0.1 - - [17/Apr/2025 08:22:40] "GET / HTTP/1.1" 200 -
+2025-04-17 08:22:40,192 - INFO - 127.0.0.1 - - [17/Apr/2025 08:22:40] "[36mGET /static/images/fg.png HTTP/1.1[0m" 304 -
+2025-04-17 08:26:19,143 - INFO -  * Detected change in 'c:\\Users\\rahul.k\\Desktop\\javafor practice\\Practice1.java\\JAVA program\\Payment-Reconcilations\\app.py', reloading
+2025-04-17 08:26:19,146 - INFO -  * Detected change in 'c:\\Users\\rahul.k\\Desktop\\javafor practice\\Practice1.java\\JAVA program\\Payment-Reconcilations\\app.py', reloading
+2025-04-17 08:26:19,148 - INFO -  * Detected change in 'c:\\Users\\rahul.k\\Desktop\\javafor practice\\Practice1.java\\JAVA program\\Payment-Reconcilations\\app.py', reloading
+2025-04-17 08:26:19,150 - INFO -  * Detected change in 'c:\\Users\\rahul.k\\Desktop\\javafor practice\\Practice1.java\\JAVA program\\Payment-Reconcilations\\app.py', reloading
+2025-04-17 08:26:20,215 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-17 08:26:27,089 - WARNING -  * Debugger is active!
+2025-04-17 08:26:27,104 - INFO -  * Debugger PIN: 498-786-598

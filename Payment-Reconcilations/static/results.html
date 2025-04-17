@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reconciliation Results</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #e0eafc, #cfdef3);
+            color: #444;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.2);
+            width: 100%;
+            max-width: 600px;
+            transform: perspective(1000px) rotateX(10deg);
+        }
+
+        h1 {
+            font-weight: 600;
+            color: #2c3e50;
+            text-align: center;
+            margin-bottom: 30px;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+        }
+
+        .list-group-item {
+            background-color: #f8fafc;
+            border: none;
+            color: #374151;
+            transition: background 0.3s;
+        }
+
+        .list-group-item:hover {
+            background-color: #e0e7ff;
+        }
+
+        .btn-success {
+            background-color: #4f46e5;
+            border-color: #4f46e5;
+            transition: background 0.3s, transform 0.3s, box-shadow 0.3s;
+        }
+
+        .btn-success:hover {
+            background-color: #4338ca;
+            transform: translateY(-3px);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        h2 {
+            margin-top: 40px;
+            text-align: center;
+        }
+
+        .chart-container {
+            position: relative;
+            margin: auto;
+            height: 300px; /* Increased for better visibility */
+            width: 300px;  /* Increased for better visibility */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Reconciliation Summary</h1>
+        <ul class="list-group">
+            <li class="list-group-item">Total Records in CIS File: {{ summary['Total CIS Records'] }}</li>
+            <li class="list-group-item">Total Records in TP File: {{ summary['Total TP Records'] }}</li>
+            <li class="list-group-item">Matched Records: <span id="matchedRecords">{{ summary['CIS = TP (Matched)'] }}</span></li>
+            <li class="list-group-item">Mismatch from CIS: <span id="unmatchedCIS">{{ summary['CIS <> TP (Mismatch from CIS)'] }}</span></li>
+            <li class="list-group-item">Mismatch from TP: <span id="unmatchedTP">{{ summary['TP <> CIS (Mismatch from TP)'] }}</span></li>
+        </ul>
+        <br>
+        <a href="{{ url_for('download_file', filename='NEFT_output.xlsx') }}" 
+   class="btn btn-success">
+   <i class="fas fa-file-download"></i> Download Reconciliation Results
+</a>
+
+        <!-- Pie Chart Section -->
+        <div class="mt-4">
+            <h2>Reconciliation Pie Chart</h2>
+            <div class="chart-container">
+                <canvas id="reconciliationChart"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        window.onload = function () {
+            // Initial values
+            var totalCISRecords = {{ summary['Total CIS Records'] | default(0) }};
+            var totalTPRecords = {{ summary['Total TP Records'] | default(0) }};
+            var matchedRecords = {{ summary['CIS = TP (Matched)'] | default(0) }};
+            var unmatchedCIS = {{ summary['CIS <> TP (Mismatch from CIS)'] | default(0) }};
+            var unmatchedTP = {{ summary['TP <> CIS (Mismatch from TP)'] | default(0) }};
+            
+            // Create the Pie Chart
+            var ctx = document.getElementById('reconciliationChart').getContext('2d');
+            var reconciliationChart = new Chart(ctx, {
+                type: 'pie',
+                data: {
+                    labels: ['CIS = TP (Matched)', 'CIS <> TP (Mismatch from CIS)', 'TP <> CIS (Mismatch from TP)'],
+                    datasets: [{
+                        data: [matchedRecords, unmatchedCIS, unmatchedTP],
+                        backgroundColor: ['#28a745', '#dc3545', '#ffc107'],
+                        borderColor: ['#ffffff', '#ffffff', '#ffffff'],
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    animation: {
+                        animateScale: true,
+                        animateRotate: true
+                    },
+                    plugins: {
+                        legend: {
+                            position: 'top',
+                        },
+                        tooltip: {
+                            callbacks: {
+                                label: function(tooltipItem) {
+                                    return tooltipItem.label + ': ' + tooltipItem.raw;
+                                }
+                            }
+                        }
+                    }
+                }
+            });
+        };
+    </script>
+</body>
+
+</html>
